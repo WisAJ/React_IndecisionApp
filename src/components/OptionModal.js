@@ -5,14 +5,19 @@ const OptionModal = (props) => (
   <Modal
     isOpen={!!props.selectedOption}
     onRequestClose={props.handleClearSelectedOption}
-    contentLabel="Selected Option"
+    contentLabel="Selected Options"
     closeTimeoutMS={200}
     className="modal"
   >
     <h3 className="modal__title">Selected Option</h3>
     {props.selectedOption && <p className="modal__body">{props.selectedOption}</p>}
-    <button className="button" onClick={props.handleClearSelectedOption}>Okay</button>
+    <button className="button" onClick={props.handleClearSelectedOption}>Okay</button> 
   </Modal>
 );
 
 export default OptionModal;
+
+// selectedOption = undefined.
+// onRequestClose={() => props.handleClearSelectedOption()}    what effect???.
+// contentLabel="Selected Options" is used for accessibility.
+

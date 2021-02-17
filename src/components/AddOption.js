@@ -16,6 +16,7 @@ export default class AddOption extends React.Component {
     }
   };
   render() {
+   
     return (
       <div>
         {this.state.error && <p className="add-option-error">{this.state.error}</p>}

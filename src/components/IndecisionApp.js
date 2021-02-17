@@ -60,6 +60,8 @@ export default class IndecisionApp extends React.Component {
   componentWillUnmount() {
     console.log('componentWillUnmount');
   }
+
+  
   render() {
     const subtitle = 'Put your life in the hands of a computer';
 
@@ -70,6 +72,8 @@ export default class IndecisionApp extends React.Component {
           <Action
             hasOptions={this.state.options.length > 0}
             handlePick={this.handlePick}
+            to='wissam'
+            from='aseel'
           />
           <div className="widget">
             <Options
