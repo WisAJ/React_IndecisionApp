@@ -25,14 +25,14 @@
     "normalize.css": "7.0.0",
     "react": "16.0.0",
     "react-dom": "16.0.0",
-    "react-modal": "2.2.2",
+    "react-modal": "^3.12.1",
     "sass-loader": "6.0.6",
     "style-loader": "0.18.2",
     "validator": "8.0.0"
   },
   "devDependencies": {
     "live-server": "^1.2.1",
-    "webpack-dev-server": "2.5.1",
-    "webpack": "3.1.0"
-}
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  }
 }

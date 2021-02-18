@@ -72,8 +72,6 @@ export default class IndecisionApp extends React.Component {
           <Action
             hasOptions={this.state.options.length > 0}
             handlePick={this.handlePick}
-            to='wissam'
-            from='aseel'
           />
           <div className="widget">
             <Options
